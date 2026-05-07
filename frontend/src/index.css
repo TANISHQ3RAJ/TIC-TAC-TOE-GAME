@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-blue: #FFD700; /* Iron Man Gold */
+  --color-neon-pink: #FF0000; /* Iron Man Red */
+  --color-bg-dark: #0f172a;
+  --color-bg-light: #f8fafc;
+}
+
+@layer base {
+  body {
+    @apply antialiased text-white transition-colors duration-300;
+    background-image: url('/iron_man_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000; /* Fallback */
+  }
+  
+  .light body {
+    @apply bg-slate-50 text-slate-900;
+    background-image: none;
+  }
+}
+
