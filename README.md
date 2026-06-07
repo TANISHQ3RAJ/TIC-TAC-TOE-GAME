@@ -1,5 +1,7 @@
 # Modern Tic Tac Toe Multiplayer Game
 
+**Live Demo:** [https://zerokattas.netlify.app/](https://zerokattas.netlify.app/)
+
 A fully interactive, mobile-friendly Tic Tac Toe game featuring:
 - Single Player mode against AI (Easy, Medium, Hard with Minimax algorithm)
 - Local Multiplayer mode
